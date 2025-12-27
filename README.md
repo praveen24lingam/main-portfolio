@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
+Praveen Lingam Portfolio
+Welcome to the repository for Praveen Lingam's Portfolio, a modern, responsive, and beautifully designed personal portfolio website. This project showcases skills, experience, and projects using cutting-edge web technologies.
 
-## Project info
+🌟 Live Demo
+Check out the live portfolio here: Praveen Lingam Portfolio
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+📂 Project Structure
+The project is organized as follows:
 
-## How can I edit this code?
+src: Contains the main application code.
+components/: Reusable UI components like Navbar, Footer, and HeroSection.
+ui/: Prebuilt UI elements such as buttons, cards, and modals.
+hooks/: Custom React hooks for reusable logic.
+pages/: Page-level components like Index.tsx and NotFound.tsx.
+lib/: Utility functions.
+public: Static assets like robots.txt.
+Configuration Files: Includes vite.config.ts, tailwind.config.ts, and tsconfig.json for project setup.
+🚀 Features
+Responsive Design: Optimized for all devices, from mobile to desktop.
+Modern Tech Stack: Built with React, TypeScript, Tailwind CSS, and Vite.
+Reusable Components: Modular and reusable UI components.
+Custom Hooks: Simplified logic with reusable hooks.
+Fast Performance: Leveraging Vite for blazing-fast development and builds.
+🛠️ Technologies Used
+Frontend: React, TypeScript
+Styling: Tailwind CSS
+UI Library: shadcn-ui
+Build Tool: Vite
+🧑‍💻 Getting Started
+Follow these steps to set up the project locally:
 
-There are several ways of editing your application.
+Prerequisites
+Node.js: Install the latest version from Node.js.
+npm: Comes with Node.js. Alternatively, use nvm.
+Installation
+Clone the repository:
+git clone https://github.com/your-username/praveen-lingam-portfolio.git
 
-**Use Lovable**
+Navigate to the project directory:
+cd praveen-lingam-portfolio
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Install dependencies: npm install
 
-Changes made via Lovable will be committed automatically to this repo.
+Start the development server: npm run dev
 
-**Use your preferred IDE**
+Open your browser and visit:  http://localhost:5173
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🌐 Deployment
+This project can be deployed using platforms like Vercel, Netlify, or any static hosting service. For example:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Build the project:  npm run build
 
-Follow these steps:
+Deploy the dist folder to your hosting provider.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+📄 License
+This project is licensed under the MIT License.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🤝 Contributing
+Contributions are welcome! If you'd like to contribute:
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Fork the repository.
+Create a new branch: git checkout -b feature/your-feature-name
+Commit your changes: git commit -m "Add your message"
+Push to the branch: git push origin feature/your-feature-name
+Open a pull request.
