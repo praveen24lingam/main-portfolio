@@ -1,35 +1,36 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { ExternalLink, Github, Cloud, CheckSquare, User } from 'lucide-react';
+import { ExternalLink, Github, Cloud, CheckSquare, FileText, User } from 'lucide-react';
 
 const projects = [
   {
     title: 'Weather App',
     description: 'Responsive weather application using OpenWeather API with geolocation, error handling, local storage, and accessible UI.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
+    tech: ['HTML', 'CSS', 'React.js'],
     icon: Cloud,
-    liveUrl: 'https://neoweatherbypraveen.netlify.app/',
+    liveUrl: 'https://upgraded-weather.vercel.app/',
     githubUrl: 'https://github.com/praveen24lingam/Weather-App.git',
     color: 'from-blue-500 to-cyan-500',
   },
-  // {
-  //   title: 'Portfolio Website',
-  //   description: 'Personal portfolio website with smooth navigation, SEO optimization, and clean UX design.',
-  //   tech: ['HTML', 'CSS', 'JavaScript'],
-  //   icon: User,
-  //   liveUrl: '#',
-  //   githubUrl: 'https://github.com/praveen-lingam/portfolio',
-  //   color: 'from-purple-500 to-pink-500',
-  // },
+  
   {
     title: 'To-Do List App',
     description: 'Task management app with filtering, dark mode, keyboard shortcuts, accessibility, and local storage.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
+    tech: ['React.js','Node.js','Express.js','MongoDB'],
     icon: CheckSquare,
-    liveUrl: 'https://braintodolist.netlify.app/',
-    githubUrl: 'https://github.com/praveen24lingam/Task2-Todo_List.git',
+    liveUrl: 'https://todo-app-mu-two-88.vercel.app/',
+    githubUrl: 'https://github.com/praveen24lingam/todo-app.git',
     color: 'from-green-500 to-emerald-500',
+  },
+  {
+    title: 'Markdown Notes Taker',
+    description: 'High-performance notes app with Live Markdown Preview, GitHub-flavored support, multi-criteria sorting, and theme-switching.',
+    tech: ['React.js', 'LocalStorage', 'CSS'],
+    icon: FileText, 
+    liveUrl: 'https://notes-app-eta-olive-94.vercel.app/',
+    githubUrl: 'https://github.com/praveen24lingam/Notes_App.git',
+    color: 'from-orange-500 to-red-500',
   },
 ];
 
