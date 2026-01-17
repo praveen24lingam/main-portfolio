@@ -42,25 +42,25 @@ const certifications = [
     title: 'Introduction to Git and GitHub',
     issuer: 'Google',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg',
-    link: '#',
+    link: 'https://drive.google.com/file/d/1nxdtFLHp40gCcKstfKE8-VaEvh_HwaXf/view?usp=sharing',
   },
   {
     title: 'JavaScript',
     issuer: 'IBM SkillsBuild',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-    link: '#',
+    link: 'https://drive.google.com/file/d/1xkHmZwLChmnnr7B9s4ArEFS7QqDDWKZt/view?usp=sharing',
   },
   {
     title: 'Frontend Development',
     issuer: 'Meta',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg',
-    link: '#',
+    link: 'https://drive.google.com/file/d/1fD0nC4tnYqYiGpDR0Vxi8T8_k_zhNjeR/view?usp=sharing',
   },
   {
     title: 'React',
     issuer: 'IBM SkillsBuild',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
-    link: '#',
+    link: 'https://drive.google.com/file/d/1VhXnDnmhpqGEcMtfLoRp-H0UQ9_k3M9v/view?usp=sharing',
   },
 ];
 
